@@ -1,0 +1,5 @@
+This project focuses on time series analysis of stock prices using Python. 
+The workflow includes loading and cleaning historical stock data, visualizing trends through line plots, and resampling data to monthly averages. 
+Seasonality is examined using Autocorrelation Function (ACF) plots, while stationarity is tested with the Augmented Dickey-Fuller (ADF) test. 
+To prepare the data for forecasting, techniques like differencing and moving averages are applied for smoothing and trend removal. 
+Finally, the stationarity of the transformed data is re-validated with the ADF test, ensuring the series is ready for future forecasting applications.
